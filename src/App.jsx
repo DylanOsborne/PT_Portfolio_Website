@@ -8,7 +8,7 @@ function App() {
     <>
       <div className='navbar'>
         <div className='navbar_left'>
-          <h2>Dylan Osborne</h2>
+          <h2>Dylan Osborne • Personal Trainer</h2>
         </div>
 
         <div className='navbar_right'>

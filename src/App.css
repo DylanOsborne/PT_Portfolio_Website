@@ -1,24 +1,33 @@
+h1:hover, h2:hover, p:hover {
+  cursor: default;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  color: chartreuse;
+}
+
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
+  color: chartreuse;
+  border-bottom: rgb(66, 56, 133) solid 5px;
 }
 
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  font-size: 18px;
 }
 
 .navbar_left {
@@ -30,8 +39,6 @@
   padding-right: 10%;
   float: right;
 }
-
-
 
 .segment_div {
   padding: 2%;
@@ -45,9 +52,42 @@
 
 .heading {
   text-align: center;
+  padding-top: 2%;
 }
 
 .text {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 8%;
+}
+
+#welcome_segment_div {
+  margin-top: 75px;
+}
+
+#welcome_segment_div, #offer_segment_div {
+  background-color:rgb(66, 56, 133);
+  color:chartreuse;
+}
+
+#welcome_segment_container, #offer_segment_container  {
+  background-color: black;
+  font-weight: bold;
+}
+
+#about_segment_div, #contact_segment_div {
+  background-color: black;
+  color: black;
+}
+
+#about_segment_container, #contact_segment_container {
+  background-color: chartreuse;
+  font-weight: bold;
+}
+
+#about_segment_container   {
+  width: 50%;
+}
+
+#offer_segment_container {
+  width: 50%;
+  margin-left: auto;
 }
