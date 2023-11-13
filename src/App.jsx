@@ -8,7 +8,7 @@ function App() {
     <>
       <div className='navbar'>
         <div className='navbar_left'>
-          <h3>Dylan Osborne</h3>
+          <h2>Dylan Osborne</h2>
         </div>
 
         <div className='navbar_right'>
@@ -28,19 +28,38 @@ function App() {
       </div>
 
       <Element name="welcome_segment" className='welcome_segment'>
-        {/* Your content for the "Welcome" section */}
+        <div className='welcome_segment_div'>
+          <div className='welcome_segment_container'>
+            <h1 id='welcome_heading'>Welcome</h1>
+            <p id='welcome_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
+              Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
+              Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+          </div>
+        </div>
       </Element>
 
       <Element name="about_segment" className='about_segment'>
-        {/* Your content for the "About" section */}
+        <div className='about_segment_div'>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
+            Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
+            Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+        </div>
       </Element>
 
       <Element name="offer_segment" className='offer_segment'>
-        {/* Your content for the "Offers" section */}
+        <div className='offer_segment_div'>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
+            Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
+            Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+        </div>
       </Element>
 
       <Element name="contact_segment" className='contact_segment'>
-        {/* Your content for the "Contact Info" section */}
+        <div className='contact_segment_div'>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
+            Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
+            Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+        </div>
       </Element>
     </>
   )
