@@ -28,10 +28,10 @@ function App() {
       </div>
 
       <Element name="welcome_segment" className='welcome_segment'>
-        <div className='welcome_segment_div'>
-          <div className='welcome_segment_container'>
-            <h1 id='welcome_heading'>Welcome</h1>
-            <p id='welcome_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
+        <div className='segment_div' id='welcome_segment_div'>
+          <div className='container' id='welcome_segment_container'>
+            <h1 className='heading' id='welcome_heading'>Welcome</h1>
+            <p className='text' id='welcome_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
               Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
               Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
           </div>
@@ -39,10 +39,13 @@ function App() {
       </Element>
 
       <Element name="about_segment" className='about_segment'>
-        <div className='about_segment_div'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
-            Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
-            Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+        <div className='segment_div' id='about_segment_div'>
+          <div className='container' id='about_segment_container'>
+            <h1 className='heading' id='about_heading'>About</h1>
+              <p className='text' id='about_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
+                Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
+                Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+          </div>
         </div>
       </Element>
 
