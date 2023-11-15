@@ -4,10 +4,15 @@ h1:hover, h2:hover, p:hover {
 
 p {
   font-size: 20px;
+  font-family: monospace;
+}
+
+h1, h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 button {
-  color: chartreuse;
+  color: yellow;
 }
 
 .navbar {
@@ -17,8 +22,8 @@ button {
   top: 0;
   width: 100%;
   z-index: 100;
-  color: chartreuse;
-  border-bottom: rgb(66, 56, 133) solid 5px;
+  color: yellow;
+  border-bottom: rgb(65, 65, 5) solid 5px;
 }
 
 .navbar a {
@@ -64,8 +69,8 @@ button {
 }
 
 #welcome_segment_div, #offer_segment_div {
-  background-color:rgb(66, 56, 133);
-  color:chartreuse;
+  background-color:rgb(65, 65, 5);
+  color:yellow;
 }
 
 #welcome_segment_container, #offer_segment_container  {
@@ -75,11 +80,11 @@ button {
 
 #about_segment_div, #contact_segment_div {
   background-color: black;
-  color: black;
+  color: yellow;
 }
 
 #about_segment_container, #contact_segment_container {
-  background-color: chartreuse;
+  background-color: rgb(65, 65, 5);
   font-weight: bold;
 }
 
@@ -90,4 +95,27 @@ button {
 #offer_segment_container {
   width: 50%;
   margin-left: auto;
+}
+
+#insta_link {
+  text-decoration: underline;
+}
+
+#contact_text {
+  padding: 3%;
+  padding-left: 5%;
+  padding-top: 0%;
+}
+
+.small_text {
+  font-size: 14px;
+  float: right;
+}
+
+.italic_text {
+  font-style: italic;
+}
+
+#offer_disclaimer {
+  font-size: 5px;
 }

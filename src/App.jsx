@@ -42,9 +42,10 @@ function App() {
         <div className='segment_div' id='about_segment_div'>
           <div className='container' id='about_segment_container'>
             <h1 className='heading' id='about_heading'>About</h1>
-              <p className='text' id='about_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
-                Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
-                Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+              <p className='text' id='about_text'>Hi, I'm Dylan Osborne, I'm 19 years old and I work as both a developer and a personal trainer. I am a qualified personal trainer that 
+                studied at ETA college and received a higher certificate in fitness. I have a training history, coming up to 4 years now, where I mainly focused on body bulding type 
+                training. I don't have much experience training others professionally but I have a lot of experience training my friends and family, assisting them to get into training
+                eventually leading them to be able to train pn their own.</p>
           </div>
         </div>
       </Element>
@@ -53,9 +54,15 @@ function App() {
         <div className='segment_div' id='offer_segment_div'>
           <div className='container' id='offer_segment_container'>
             <h1 className='heading' id='offer_heading'>Offers</h1>
-              <p className='text' id='offer_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
-                Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
-                Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+              <div className='text' id='offer_text'>
+                  <p>Per session: R200</p>
+                  <p>3 Session Package: R510 <p className='small_text'>*Save R90, R170/session</p></p>
+                  <p>5 Session Package: R800 <p className='small_text'>*Save R200, R160/session</p></p>
+              </div>
+              <div className='text' id='offer_disclaimer'>
+                <p>*Note that the <t className='italic_text'>Session Packages</t> and <t className='italic_text'>Single Session</t> need to be paid up front and refunds will only be given if there is a valid reason for missing the session</p>
+                <p>Refunds will not be be full amount, some amount will be taken off depending on the type of session paid for</p>
+              </div>
           </div>
         </div>
       </Element>
@@ -64,9 +71,11 @@ function App() {
       <div className='segment_div' id='contact_segment_div'>
           <div className='container' id='contact_segment_container'>
             <h1 className='heading' id='contact_heading'>Contact Info</h1>
-              <p className='text' id='contact_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
-                Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
-                Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+              <div className='text' id='contact_text'>
+                <p>Email: dylanosbornebuisness@gmail.com</p>
+                <p>Contact Number: 061 996 4321</p>
+                <p>Instagram: <a id='insta_link' href='https://www.instagram.com/dylanosbornefitness/'>dylanosbornefitness</a></p>
+              </div>
           </div>
         </div>
       </Element>
