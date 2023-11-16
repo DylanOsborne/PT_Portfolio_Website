@@ -31,9 +31,8 @@ function App() {
         <div className='segment_div' id='welcome_segment_div'>
           <div className='container' id='welcome_segment_container'>
             <h1 className='heading' id='welcome_heading'>Welcome</h1>
-            <p className='text' id='welcome_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend tortor vitae varius luctus. Vivamus dapibus euismod est, at aliquam sem finibus sit amet. 
-              Praesent pulvinar tempor tempus. Aenean ornare lectus ac elit sollicitudin dictum. Praesent molestie vestibulum orci, nec posuere purus ornare ac. Praesent id dui diam. 
-              Sed faucibus leo nec nisi elementum, quis lacinia magna tincidunt. Proin laoreet bibendum nunc sit amet dictum.</p>
+            <p className='text' id='welcome_text'>I am a new personal trainer starting training in 2024. If you are in need of a personal trainer
+            then please contact me and we can see if I will be the one to assist you in achieving your goals.</p>
           </div>
         </div>
       </Element>
@@ -60,8 +59,8 @@ function App() {
                   <p>5 Session Package: R800 <p className='small_text'>*Save R200, R160/session</p></p>
               </div>
               <div className='text' id='offer_disclaimer'>
-                <p>*Note that the <t className='italic_text'>Session Packages</t> and <t className='italic_text'>Single Session</t> need to be paid up front and refunds will only be given if there is a valid reason for missing the session</p>
-                <p>Refunds will not be be full amount, some amount will be taken off depending on the type of session paid for</p>
+                <p>*Note that the <t className='italic_text'>Session Packages</t> and <t className='italic_text'>Single Session</t> need to be paid up front and refunds will only be given if there is a valid reason for missing the session.</p>
+                <p>Refunds will not be be full amount, some amount will be taken off depending on the type of session paid for.</p>
               </div>
           </div>
         </div>
